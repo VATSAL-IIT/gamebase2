@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN/SIGNUP PAGE</title>
+   
+</head>
+<body id="bdy">
+    <h1 class=h1-class >WELCOME TO β-GAMER.COM</h1>
+    <link rel="stylesheet" href="style.css">
+    <H2 class=style-class>LOGIN USING FIREBASE</H2>
+
+    
+        <BR>
+          <div id="logindiv">
+
+         
+           <INPUT TYPE="email"  id="email" PLACEHOLDER="Enter your mail-id here" class="s-class"> </input><BR><br>
+                <input type="text" id="password" PLACEHOLDER="Enter your Password" class="s-class" ></input>
+
+                <br><br>
+                <button class="button-class" onclick="login()">Login to your Account</button>
+              </div>
+
+
+              <div id="loggedindiv">
+<h2 id="h22">
+WELCOME USER 
+</h2>
+<p id="parag">You are currently logged in.Click on logout to sign out.</p>
+<button class="button2">Logout</button>
+
+              </div>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDYS8ak9vihpzOGPvozqYY1hZ139ISC1AA",
+    authDomain: "beta-gamer-pro.firebaseapp.com",
+    projectId: "beta-gamer-pro",
+    storageBucket: "beta-gamer-pro.appspot.com",
+    messagingSenderId: "394448356092",
+    appId: "1:394448356092:web:6a7505cfe148c36b28cd79",
+    measurementId: "G-CNV975Z7LC"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="login.js"></script>
+             </body>
