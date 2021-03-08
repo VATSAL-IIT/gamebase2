@@ -35,13 +35,33 @@ firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     // User is signed in.
     console.log(user);
-    document.getElementById("loggedindiv").style.display="block";
-    document.getElementById("logindiv").style.display="none";
+    //document.getElementById("loggedindiv").style.display="block";
+    //document.getElementById("logindiv").style.display="none";
+    window.location.href="mainsite.html";
 
   
   } else {
     // No user is signed in.
-    // document.getElementById("logindiv").style.display="none";
-    // document.getElementById("loggedindiv").style.display="block";
+  //  document.getElementById("logindiv").style.display="none";
+   //  document.getElementById("loggedindiv").style.display="block";
   }
 });
+const auth=firebase.auth();
+
+//function logout{
+
+//}
+firebase.auth().signOut().then(() => {
+  
+  
+}).catch((error) => {
+  window.alert("YOU ARE ALREADT SIGNED OUT");// An error happened.
+});
+
+
+//LOGOUT METHOD
+/*
+const logout=document.querySelector('#logout');
+logout.addEventListener('click',(e)=>{e.preventDefault();
+auth.signout();})
+*/
