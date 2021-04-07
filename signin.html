@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN/SIGNUP PAGE</title>
+    <title>LOGIN PAGE</title>
     
     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
@@ -14,7 +14,7 @@
 <body id="bdy">
     <h1 class=h1-class >WELCOME TO β-GAMER.COM</h1>
     <link rel="stylesheet" href="style.css">
-    <H2 class=style-class>LOGIN USING FIREBASE</H2>
+    <H2 class=style-class>SIGN-IN USING EMAIL-ID AND PASSWORD</H2>
 
     
         <BR>
@@ -25,18 +25,23 @@
                 <input type="text" id="password" PLACEHOLDER="Enter your Password" class="s-class" ></input>
 
                 <br><br>
-                <button class="button-class" onclick="login()">Login to your Account</button>
+                <button class="button-class" onclick="login()">LOGIN TO YOUR ACCOUNT</button>
               </div>
 
 
               <div id="loggedindiv">
-<h2 id="h22">
-WELCOME USER 
-</h2>
-
-
 
               </div>
+              <P id="new"><b>NEW USERS REGISTER HERE</b></P>
+<button id="signup" onclick="signup()">SIGN UP</button>
 
+
+<style>
+  body{
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.IAD14A1Owteslw_g5PPICgHaDA&pid=Api&P=0&w=419&h=170');
+ background-size: cover;position: relative;
+ background-blend-mode: darken;
+ }
+</style>
              </body>
           </html>

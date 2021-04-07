@@ -1,0 +1,66 @@
+.class{
+    color:rgb(6, 6, 24);
+    margin-left:450px;
+    font-size:40px;
+}.class:hover{
+    color:rgb(6, 6, 24);
+    margin-left:450px;
+    font-size:40px;
+    letter-spacing:2px;
+}
+.style1class{
+    color:rgb(245, 191, 208);
+    font-size:35px;
+   margin-top:90px;
+   text-align:center;
+   letter-spacing: 2px;
+}
+.s1class{
+
+    margin-left:450px;
+    color:crimson;
+    font-size:25px;
+    text-align: center;
+    margin-top:60px;
+    padding:15px;
+    width:475px;
+}.button1class{
+
+    color:rgb(7, 8, 10);
+    border-radius :5px;
+    border:solid black 3px;
+    padding:20px;
+    font-size: 25px;
+    margin-left:540px;
+    margin-top:30px;
+    background-color: rgb(200, 233, 233);
+}
+.button1class:hover{
+    background-color: rgb(138, 63, 138);
+cursor: pointer;  transform:translateY(5px);
+transition: transform 0.2s;
+}
+    
+    
+    #p1{
+    color:darksalmon;
+    font-size:35px;
+    margin-left:495px;
+    margin-top:90px;
+}#login{
+    border-radius: 5px;
+    border:rgb(15, 11, 19) solid 3px;
+    margin-left:650px;
+    font-size:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:30px;
+    padding-left:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}#login:hover{
+    background-color: cyan;
+    transform:translateY(5px);
+    transition: transform 0.2s;
+    
+}

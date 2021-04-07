@@ -1,0 +1,136 @@
+#home
+{
+
+margin-left:200px;
+   margin-top: 25px;
+   color: black;
+   border-radius: 5px;
+   box-shadow:cornsilk;
+   font-size: 25px;
+}
+
+#home:hover{
+box-shadow:crimson;
+color:darkblue;
+cursor: pointer;
+transform:translateX(5px);
+transition: transform 0.2s;
+
+
+}
+
+
+
+#rope-police
+{
+   color:rgb(23, 21, 24);
+   font-size:20px;
+   box-shadow: cornsilk;
+margin-left:100px;
+   
+}
+
+#rope-police:hover
+{
+   color:rgb(11, 4, 17);
+   font-size:20px;
+   box-shadow: rgb(97, 83, 25);
+   letter-spacing: 2px;
+   
+}
+
+.action1
+{
+margin-left:845px;
+margin-top:120px;
+    transform:translateY(18px);
+    transition: transform 0.2s;
+
+}
+
+.action2
+{
+margin-left:250px;
+margin-top:-390px;
+color:rgb(7, 8, 6);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+.action3
+{
+margin-left:550px;
+margin-top:40px;
+color:rgb(175, 243, 86);
+font-family:Arial, Helvetica, sans-serif;
+}
+
+#ninja{
+
+   
+
+    color:rgb(3, 0, 5);
+    font-size:20px;
+    box-shadow: rgb(14, 12, 4);
+ margin-left:100px;}
+#ninja:hover{
+    color:rgb(1, 1, 2);
+   font-size:20px;
+   box-shadow: rgb(95, 82, 29);
+   letter-spacing: 2px;
+
+}
+
+#rope-police:hover
+{
+   color:rgb(226, 203, 247);
+   font-size:20px;
+   box-shadow: rgb(97, 83, 25);
+   letter-spacing: 2px;
+   
+}
+#mexico-rex{
+
+    color:rgb(9, 5, 14);
+    font-size:20px;
+    box-shadow: cornsilk;
+ margin-left:100px;
+}
+#mexico-rex:hover{
+    color:rgb(20, 12, 27);
+    font-size:20px;
+    box-shadow: rgb(97, 83, 25);
+    letter-spacing: 2px;
+    
+
+
+}
+
+#action{
+font-size: 35px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:rgb(2, 1, 1);
+margin-left:400px;
+margin-top:30px;
+box-shadow: gold;
+cursor: pointer;
+
+
+}
+#action:hover{
+
+ letter-spacing: 2px;   
+
+box-shadow: hotpink;
+
+}
+#logout{ margin-left:800px;
+   margin-top: 25px;
+   color: black;
+   border-radius: 5px;
+   box-shadow:cornsilk;
+   font-size: 25px;
+
+}  #logout:hover{box-shadow:crimson;
+color:darkblue;
+cursor: pointer;
+transform:translateX(5px);
+transition: transform 0.2s;}

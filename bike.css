@@ -1,0 +1,90 @@
+#home{  margin-left:200px;
+    margin-top: 15px;
+    color: black;
+    border-radius: 5px;
+    box-shadow:cornsilk;
+    font-size: 25px;
+
+}#home:hover{  box-shadow:crimson;
+    color:rgb(192, 192, 250);
+    cursor: pointer;
+    transform:translateX(5px);
+    transition: transform 0.2s;}
+#bike1{
+    color:rgb(215, 169, 245);
+    font-size:20px;
+    box-shadow: rgb(14, 12, 4);
+ margin-left:250px;
+ margin-top:70px;
+
+}
+#bike2{margin-left:850px;
+    margin-top:-410px;
+    color:rgb(205, 247, 162);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+
+}
+#bike3{
+    margin-left:550px;
+    margin-top:40px;
+    color:rgb(175, 243, 86);
+    font-family:Arial, Helvetica, sans-serif;
+    
+}#starter{
+    font-size:35px;
+    color:rgb(247, 214, 214);
+    margin-top:30px;
+    margin-left:450px;
+    
+}#starter:hover{
+    letter-spacing: 2px;
+}
+#bk1{
+    color:rgb(231, 194, 250);
+   font-size:20px;
+   box-shadow: cornsilk;
+margin-left:100px;
+   
+}#bk2{ color:rgb(228, 196, 245);
+    font-size:20px;
+    box-shadow: cornsilk;
+ margin-left:100px;
+    
+
+}#bk3{ color:rgb(224, 182, 245);
+    font-size:20px;
+    box-shadow: cornsilk;
+ margin-left:100px;
+    
+}#bk1:hover{ box-shadow:crimson;
+    color:rgb(187, 187, 250);
+    cursor: pointer;
+    transform:translateX(5px);
+    transition: transform 0.2s;font-size:20px;
+
+}#bk2:hover{
+    box-shadow:crimson;
+    color:rgb(184, 184, 250);
+    cursor: pointer;
+    transform:translateX(5px);
+    transition: transform 0.2s;
+    font-size:20px;
+
+}#bk3:hover{ box-shadow:crimson;
+    color:rgb(169, 169, 250);
+    cursor: pointer;
+    transform:translateX(5px);
+    transition: transform 0.2s;font-size:20px;
+
+}#logout{ margin-left:800px;
+    margin-top: 25px;
+    color: black;
+    border-radius: 5px;
+    box-shadow:cornsilk;
+    font-size: 25px;
+ 
+ }  #logout:hover{box-shadow:crimson;
+ color:darkblue;
+ cursor: pointer;
+ transform:translateX(5px);
+ transition: transform 0.2s;}
